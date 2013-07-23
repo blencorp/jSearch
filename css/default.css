@@ -1,0 +1,19 @@
+body { font: 12px Arial, Helvetica, sans-serif; }
+#controller { border-bottom: 1px #e1e1e1 solid; padding: 10px 0 8px 0; margin: 0 0 10px 0; text-align: center; }
+#controller input, #controller select { padding: 4px; margin: 0 8px 0 0; }
+
+#result { font-weight: bold; text-align: center; }
+#result .error { padding: 4px; background: #ffebe8; border: 1px #eb8a71 solid; }
+#result .message { padding: 4px; background: #e8ffec; border: 1px #79ef9d solid; }
+
+#result #grid { width: 100%; margin: 10px 0 0; }
+#result #grid .even { background-color: #fff; }
+#result #grid .odd { background-color: #F0F0F6; }
+#result #grid .highlight { background-color: #3D3D3D; font-weight: bold; }
+#result #grid .header { background: url(../images/small.gif) no-repeat #E6EEEE right center; cursor: pointer; padding: 4px; }
+#result #grid .headerSortUp { background: url(../images/small_asc.gif) no-repeat #8DBDD8 right center; }
+#result #grid .headerSortDown { background: url(../images/small_desc.gif) no-repeat #8DBDD8 right center; }
+#result #grid .col1, #grid .col2, #grid .col3 { padding: 5px; }
+#result #grid .col1 { width: 33%; }
+#result #grid .col2 { width: 33%; }
+#result #grid .col1 img { display: block; padding: 5px; margin: 5px 0; border: 1px #efefef solid; }

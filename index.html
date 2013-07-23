@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+<title>Search</title>
+<link rel="stylesheet" href="css/default.css" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/tablesorter.js"></script>
+<script id="data" type="text/javascript" src="js/search.js" xmlData="data/data.xml"></script>
+</head>
+<body>
+<div id="controller">
+  <label>Search Term:
+    <input type="text" id="term">
+  </label>
+  <label>
+    <select name="category" id="category">
+      <option value="none">Please Select a Type</option>
+      <option value="name">Name</option>
+      <option value="age">Age</option>
+      <option value="height">Height</option>
+    </select>
+  </label>
+  <input name="Search" type="button" id="searchButton" value="Search">
+</div>
+<div id="result">&nbsp;</div>
+</body>
+</html>
